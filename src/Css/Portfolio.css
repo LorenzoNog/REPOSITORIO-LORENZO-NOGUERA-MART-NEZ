@@ -1,0 +1,57 @@
+.portfolio{
+    margin:10% 5% 10% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+}
+.h2P{
+    text-transform: uppercase;
+    font-family: 'press start 2p',monospace;
+    display: flex;
+    justify-content: end;
+    margin: 10% 2% 10% 10%;
+}
+.projectCard{
+    padding: 10px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+}
+.projectCard:hover{
+    transform: scale(1.1);
+}
+.cardImg{
+    height: 50%;
+    margin: 5px;
+    border-bottom: 1px solid black;
+}
+.projectTitle{
+    font-family: 'press start 2p',monospace;
+    font-size: 20px;
+    margin: 10px 10px 15px 0px;
+    align-content: center;
+    letter-spacing: 5px;
+    text-align:start;
+}
+.projectDesc{
+    font-family: 'bebas neue',sans-serif;
+    text-align: justify;
+}
+.linkGithub{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.textoPort{
+    font-family: 'press start 2p',monospace;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}

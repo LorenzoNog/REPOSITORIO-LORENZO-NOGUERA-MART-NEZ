@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: #EAFDFC;
+    overflow-x: hidden;
+}
+.btnScroll{
+    background-color: #82AAE3;
+    border-radius: 80px;
+    border: none;
+    font-size: 8px;
+    font-weight: 900;
+    width: 4%;
+    height: 7%;
+    position: fixed;
+    left: 95.7%;
+    margin-top: 12px;
+};
+  
+
+   

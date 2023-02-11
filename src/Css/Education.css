@@ -1,0 +1,57 @@
+.formacion{
+    margin:10% 5% 10% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.formacionBox{
+    background-color: #82AAE3;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.boxHeader{
+    display: flex;
+    flex-direction: column;
+}
+.boxBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+}
+.h3E{
+    text-transform: uppercase;
+    font-family: 'press start 2p',monospace;
+    font-size: 20px;
+}
+.span{
+    font-family: 'bebas neue',sans-serif;
+    font-size: 20px;   
+    margin-top: 20px;
+}
+.spanCurso{
+    font-family: 'bebas neue',sans-serif;
+    font-size: 20px;   
+    margin-top: 13px;
+}
+.spanHoras{
+    font-family: 'bebas neue',sans-serif;
+    font-size: 15px; 
+    margin-bottom: 2%
+}
+.containerBtn{
+    margin-top: 1.5%;
+    position: absolute;
+    left: 75%;
+}
+.btnCertificado{
+    padding: 15px;
+    font-size: 20px;
+    background:none;
+    border-radius: 5px;
+}
+.btnCertificado:hover{
+    border: 3px solid #BFEAF5;
+}
